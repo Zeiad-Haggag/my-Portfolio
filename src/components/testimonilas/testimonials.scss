@@ -10,7 +10,7 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 55px;
     @include mobile {
       font-size: 20px;
     }
@@ -27,22 +27,22 @@
     }
 
     .card {
-      width: 250px;
+      width: 275px;
       height: 70%;
-      border-radius: 10px;
+      border-radius: 11px;
       box-shadow: 0 0 15px -8px #000;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      padding: 20px;
+      padding: 22px;
       transition: all 1s ease;
       @include mobile {
         height: 180px;
         margin: 10px;
       }
       &.featured {
-        width: 300px;
+        width: 330px;
         height: 75%;
         margin: 0 30px;
         @include mobile {
@@ -65,11 +65,11 @@
             height: 25px;
           }
           &.user {
-            height: 60px;
-            width: 60px;
+            height: 66px;
+            width: 66px;
             border-radius: 50%;
             object-fit: cover;
-            margin: 0 30px;
+            margin: 0 33px;
             @include mobile {
               height: 30px;
               width: 30px;
